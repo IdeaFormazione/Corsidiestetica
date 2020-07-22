@@ -1,0 +1,203 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+/* assegniamo raleway a tutto il body
+*/
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*
+inserisco il font per il logo
+Satisfy
+*/
+nav .brand-logo {
+  font-family: 'Satisfy', cursive;
+}
+
+/*
+aggiungo selettore a .nav-wrapper
+per aggiungere del padding sx e dx di 50px
+*/
+.nav-wrapper {
+  padding: 0px 50px;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #EF5350;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #EF5350;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+/*
+cancello la regola che nn ha senso
+  .parallax-container .section {
+    width: 100%;
+  }
+
+*/
+
+/*
+definisco una rule per l'altezza della section-intro
+e larghezza della sezione al 100% di modo che occupino tutto lo spazio
+*/
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+creo margine superiore all'header
+*/
+.header {
+  margin-top: 15%;
+}
+
+/*
+creo rules su .header-subtitle
+*/
+.header-subtitle {
+  margin-top: 10%;
+  font-size: 1.3em;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  /*
+  aggiungo selettore a .nav-wrapper
+  per aggiungere del padding sx e dx di 10px
+  */
+  .nav-wrapper {
+    padding: 0px 10px;
+  }
+}
+
+/*
+aggiungo un margine superiore a sezione servizio
+per evitare che si sovrapponga con navbar
+*/
+.col-servizio {
+  margin-top: 60px;
+  /* aggiungo del margine inferiore alla colonna servizio */
+  margin-bottom: 100px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/*
+ridimensiono h5 su #servizio
+*/
+#servizio h5 {
+  font-size: 1.3em;
+  /* aggiungo interlinea */
+  line-height: 1.6em;
+}
+
+/*
+definisco una rule per l'altezza della section-registrazione
+e larghezza della sezione al 100% di modo che occupino tutto lo spazio
+*/
+.section-registrazione {
+  height: 100%;
+  width: 100%;
+}
+
+/*
+formattazione dell'icona volo
+*/
+.registrazione-icon {
+  /* aumento dimensione */
+  font-size: 7em;
+  /* metto un margine superiore */
+  margin-top: 60px;
+}
+
+/*
+definisco la rule per la classe del sottotitolo
+regstrazione-subtitle
+*/
+.registrazione-subtitle {
+  /* porto la dimensione del testo a 1.3em */
+  font-size: 1.3em;
+  /* aggiungo il margin top del 5% */
+  margin-top: 5%;
+}
+
+/*
+allargo il bottone di submit della mail al 100% del container 
+*/
+.btn-registrazione {
+  width: 100%;
+}
+
+
+/*
+formattazione dell'icona place
+*/
+.ospita-icon {
+  /* aumento dimensione */
+  font-size: 7em;
+  /* metto un margine superiore */
+  margin-top: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+  /* aggiungo colore di sfondo della palette */
+  background-color: #3D5467;
+}
+
+/*
+stile dell'icona per l'invio mail
+*/
+.social-icon {
+  /* aumento dimensione */
+  font-size: 1.5em;
+  /* la coloro di bianco */
+  color: #fff;
+  /* aggiungo del padding laterale di 20px */
+  padding: 0 20px;
+}
+
+/*
+effetto di hover sulle icone
+*/
+.social-icon:hover {
+  color: #EF5350;
+}
