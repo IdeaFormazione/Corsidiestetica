@@ -1,4 +1,4 @@
 # corsi di estetica
 corsi di estetica
 
-url http://ideaformazione.github.io/estetica/
+url https://ideaformazione.github.io/corsidiestetica/index.html
